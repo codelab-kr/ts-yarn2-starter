@@ -13,12 +13,12 @@
     "allowJs": true, // js 파일 ts에서 import 허용
     "esModuleInterop": true, // ES6 모듈 사양을 준수하여 CommonJS 모듈을 가져올 수 있게 허용
     "baseUrl": "./", // 절대경로 설정
-    "strictNullChecks": false, // null 체크
     "noImplicitAny": false, // any 허용
     "strictBindCallApply": false, // bind, call, apply 허용
     "forceConsistentCasingInFileNames": false, // 파일명 대소문자 구분
     "noFallthroughCasesInSwitch": false, // switch 문에서 break 허용
     "removeComments": true // 주석 제거
+    // "strictNullChecks": false, // null 체크
     // "incremental": true, // 증분 컴파일
     // "sourceMap": true, // 소스맵 파일 생성 -> .ts가 .js 파일로 트랜스 시 .js.map 생성
     // "declaration": true, // .d.ts 파일 생성
