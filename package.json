@@ -1,0 +1,14 @@
+{
+  "name": "ts-yarn2-starter",
+  "packageManager": "yarn@4.0.2",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc && node dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.2"
+  }
+}
